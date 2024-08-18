@@ -37,7 +37,7 @@ Veelkord, küsi julgelt nõu ja abi
 
 <div>
   <p>
-    <img src="https://github.com/mmeest/Google-APIs-using-OAuth-2.0-in-Postman/blob/main/img/API.png" width="300px">
+    <img src="https://github.com/mmeest/testcafe-cucumber-reports-master/blob/main/logos/TS.png" width="100px">
   </p>
 </div>
 
@@ -46,7 +46,7 @@ https://www.typescriptlang.org/
 
 <div>
   <p>
-    <img src="https://github.com/mmeest/Google-APIs-using-OAuth-2.0-in-Postman/blob/main/img/API.png" width="300px">
+    <img src="https://github.com/mmeest/testcafe-cucumber-reports-master/blob/main/logos/cucumber.png" width="100px">
   </p>
 </div>
 
@@ -56,8 +56,8 @@ https://cucumber.io/
 https://cucumber.io/docs/gherkin/
 
 <div>
-  <p align="center">
-    <img src="https://github.com/mmeest/Google-APIs-using-OAuth-2.0-in-Postman/blob/main/img/API.png" width="300px">
+  <p>
+    <img src="https://github.com/mmeest/testcafe-cucumber-reports-master/blob/main/logos/testcafe.png" width="100px">
   </p>
 </div>
 
@@ -70,7 +70,7 @@ https://testcafe.io/
 NB! Antud testilood on mõeldud automaattestide tarvis.
 
 | Test ID | Kirjeldus | Testisammud | Testandmed | Oodatud tulemus | Tegelik | Staatus |
--
+| - | - | - | - | - | - | - |
 | S0001 | Lehe päise logol klikkides liigutakse SMIT'i pealehele | 1. Ava brauseris lehekülg smit.ee/et/karjaar | - | Leht vahtub ja lehe päise tekst on "Siseministeeriumi infotehnoloogia- ja arenduskeskus" | Leht vahtub ja lehe päise tekst on "Siseministeeriumi infotehnoloogia- ja arenduskeskus" | PASSED |
 | | | 2. Kliki lehe päises vasakul asuvale 'SMIT' logole | | | |
 -
