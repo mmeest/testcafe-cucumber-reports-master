@@ -1,3 +1,10 @@
+<div>
+  <p align="center">
+    <img src="https://github.com/mmeest/testcafe-cucumber-reports-master/blob/main/logos/tc.jpg" width="420px">
+  </p>
+</div>
+
+
 # testcafe-cucumber suitsutestid smit.ee/et/karjaar jaoks
 
 Testcafe ja Cucumberjs raamistikuga loodud kasutajaliidese testid.
