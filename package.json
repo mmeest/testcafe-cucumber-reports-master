@@ -1,0 +1,36 @@
+{
+  "name": "testcafe-cucumber-imdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prio1": "gherkin-testcafe chrome steps/*.ts features/*.feature -s --tags @priority1 takeOnFails=true",
+    "prio2": "gherkin-testcafe chrome steps/*.ts features/*.feature -s --tags @priority2 takeOnFails=true",
+    "test-all": "gherkin-testcafe chrome steps/*.ts features/*.feature -s --tags @wip takeOnFails=true",
+    "test:ie": "gherkin-testcafe ie steps/*.ts features/*.feature -s --tags ~@wip takeOnFails=true",
+    "test:firefox": "gherkin-testcafe firefox steps/*.ts features/*.feature -s --tags ~@wip takeOnFails=true",
+    "test:edge": "gherkin-testcafe edge steps/*.ts features/*.feature -s --tags ~@wip takeOnFails=true",
+    "test:opera": "gherkin-testcafe opera steps/*.ts features/*.feature -s --tags ~@wip takeOnFails=true",
+    "test-headless": "gherkin-testcafe chrome:headless steps/*.ts features/*.feature -s --tags ~@wip takeOnFails=true",
+    "test:wip": "BASE_URL='http://automationpractice.com' gherkin-testcafe firefox steps/*.ts features/*.feature --tags @wip -s takeOnFails=true",
+    "test:chrome:mobile": "gherkin-testcafe chrome:emulation:device=iphone X --hostname 127.0.0.1 steps/*.ts features/*.feature --tags @mobile -s takeOnFails=true",
+    "tests-chrome-with-report": "gherkin-testcafe chrome steps/*.ts features/*.feature -s --tags ~@wip takeOnFails=true --reporter cucumber-json:reports/report.json --reporter-app-name='testcafe-e2e-automation-framework' --reporter-app-version='1.0'",
+    
+    "test:smit:firefox": "gherkin-testcafe firefox tests/*.ts tests/*.feature -s takeOnFails=true",
+    "test:smit:opera": "gherkin-testcafe opera tests/*.ts tests/*.feature -s takeOnFails=true",
+    "test:smit:edge": "gherkin-testcafe edge tests/*.ts tests/*.feature -s takeOnFails=true",
+    "test:smit:chrome": "gherkin-testcafe chrome tests/*.ts tests/*.feature -s takeOnFails=true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cucumber": "^6.0.5",
+    "gherkin-testcafe": "^2.5.1",
+    "testcafe": "^1.9.0",
+    "testcafe-reporter-cucumber-json": "^6.2.0"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.1"
+  }
+}
