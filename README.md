@@ -16,8 +16,9 @@ Testcafe ja Cucumberjs raamistikuga loodud kasutajaliidese testid.
 * [Tööriistad](#tööriistad)
 * [Testilood](#testilood)
 * [Automaattestid](#automaattestid)
-* [Package.json](#package.json)
-* [Readme.md](#readme.md)
+* [Package.json](#packagejson)
+* [Readme.md](#readmemd)
+
 
 ### Kuidas jooksutada - käsurealt käivita järgmised käsud
 Sul peab arvutis olema node https://nodejs.org/en/download/ ja Git https://git-scm.com/downloads
