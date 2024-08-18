@@ -71,11 +71,8 @@ NB! Antud testilood on mõeldud automaattestide tarvis.
 
 | Test ID | Kirjeldus | Testisammud | Testandmed | Oodatud tulemus | Tegelik | Staatus |
 | - | - | - | - | - | - | - |
-| S0001 | Lehe päise logol klikkides liigutakse SMIT'i pealehele | 1. Ava brauseris lehekülg smit.ee/et/karjaar | - | Leht vahtub ja lehe päise tekst on "Siseministeeriumi infotehnoloogia- ja arenduskeskus" | Leht vahtub ja lehe päise tekst on "Siseministeeriumi infotehnoloogia- ja arenduskeskus" | PASSED |
-| | | 2. Kliki lehe päises vasakul asuvale 'SMIT' logole | | | |
--
+| S0001 | Lehe päise logol klikkides liigutakse SMIT'i pealehele | 1. Ava brauseris lehekülg smit.ee/et/karjaar 2. Kliki lehe päises vasakul asuvale 'SMIT' logole | - | Leht vahtub ja lehe päise tekst on "Siseministeeriumi infotehnoloogia- ja arenduskeskus" | Leht vahtub ja lehe päise tekst on "Siseministeeriumi infotehnoloogia- ja arenduskeskus" | PASSED |
 | S0002 | Päise menüü elemendid on õige tekstiga | 1. Ava brauseris lehekülg smit.ee/et/karjaar | - | Lehe päise menüüs on 8 elementi tekstidega: Meist; Valdkonnad; Leia kiirelt; Uudised; EL Projektid; Hanked; Kontaktid; Tule smitikaks | Lehe päise menüüs on 8 elementi tekstidega: Meist; Valdkonnad; Leia kiirelt; Uudised; EL Projektid; Hanked; Kontaktid; Tule smitikaks | PASSED |
--
 | S0003 | Kontrollitakse karjääri DOM-elementi lehel | 1. Ava brauseris lehekülg smit.ee/et/karjaar | - | Karjääri element eksisteerib, kuid see pole koheselt nähtav | Karjääri element eksisteerib, kuid see pole koheselt nähtav | PASSED |
 
 
