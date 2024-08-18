@@ -2,20 +2,6 @@ import { Selector, t } from "testcafe";
 
 
 class SmitPage {
-  /* HeaderdropDown: Selector;
-  HeaderdropDownTopRatedItem: Selector;
-  sortBy: Selector;
-  sortByBingRatings: Selector;
-  sortByDropdown: Selector;
-  cellSelectorCount: Selector;
-  BingFirstResult: Selector;
-  header: Selector;
-  BingSearchBox: Selector;
-  HeaderdropDownMobile: Selector;
-  sideBarMenuMobile: Selector;
-  sidebarMenuMobileItem: Selector;
-  headerMobile: Selector; */
-
   LogoElement: Selector;
   FirstMenuItem: Selector;
   SecondMenuItem: Selector;
