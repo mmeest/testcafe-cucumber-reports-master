@@ -65,7 +65,7 @@ https://nodejs.org/en
 
 <div>
   <p>
-    <img src="https://github.com/mmeest/testcafe-cucumber-reports-master/blob/main/logos/npm.png" width="100px">
+    <img src="https://github.com/mmeest/testcafe-cucumber-reports-master/blob/main/logos/npm.jpg" width="100px">
   </p>
 </div>
 
