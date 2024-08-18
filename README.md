@@ -10,7 +10,7 @@
 Testcafe ja Cucumberjs raamistikuga loodud kasutajaliidese testid.
 
 
-# Contents
+## Sisukord
 * [Kuidas jooksutada - käsurealt käivita järgmised käsud](#kuidas-jooksutada---käsurealt-käivita-järgmised-käsud)
 * [Ülesanded](#ülesanded)
 * [Tööriistad](#tööriistad)
@@ -61,6 +61,13 @@ https://www.typescriptlang.org/
 https://cucumber.io/
 **Gherkin** - kindla inimloetava/loogilise süntaksiga kirjelduskeel, millega kirjeldatakse rakenduse nõudeid.
 https://cucumber.io/docs/gherkin/
+
+Gherkin põhilised võtmesõnad:
+FEATURE - Gherkini dokumendid algavad selle märksõnaga, millele järgneb tekst, mis annab kirjeldust. See määrab, mida tarkvara peaks tegema.
+GIVEN - Selles sammus seadistatakse eeltingimused. Võib olla rohkem kui üks "Given" samm.
+WHEN - Kirjeldab sündmust. Soovitatav on kasutada iga stsenaariumi jaoks ainult ühte "When" sammu.
+THEN - Tulemuse samm. Siin näed tegelikku tulemust, näiteks sõnumit või aruannet.
+AND,BUT - Kui sul on mitu eelnevat sammu, võid kasutada "And" või "But", et dokumentatsioon oleks organiseeritud ja paremini loetav.
 
 <div>
   <p>
