@@ -1,8 +1,6 @@
 # testcafe-cucumber suitsutestid smit.ee/et/karjaar jaoks
 
-Testcafe ja Cucumberjs raamistikuga loodud kasutajaliidese testid.\
-\
-\
+Testcafe ja Cucumberjs raamistikuga loodud kasutajaliidese testid.
 
 
 # Contents
@@ -11,7 +9,8 @@ Testcafe ja Cucumberjs raamistikuga loodud kasutajaliidese testid.\
 * [Tööriistad](#tööriistad)
 * [Testilood](#testilood)
 * [Automaattestid](#automaattestid)
-* [Package.json ja readme.md failid](#package.json-ja-readme.md-failid)
+* [Package.json](#package.json)
+* [Readme.md](#readme.md)
 
 ### Kuidas jooksutada - käsurealt käivita järgmised käsud
 Sul peab arvutis olema node https://nodejs.org/en/download/ ja Git https://git-scm.com/downloads
@@ -79,9 +78,13 @@ NB! Antud testilood on mõeldud automaattestide tarvis.
 ### Automaattestid 
 
 Automaattestide käivitamise käsuread on nelja erineva brauseri tarvis:
+
 Chrome `npm run test:smit:chrome`
+
 Edge  `npm run test:smit:edge`
+
 Firefox `npm run test:smit:firefox`
+
 Opera  `npm run test:smit:opera`
 
 
@@ -110,9 +113,7 @@ Lehe elementide selektorid on talletatud '/pages/smitPagesElements.ts' faili
 
 
 
-### Package.json ja readme.md failid
-
-**package.json**
+### Package.json
 
 Tegemist on JSON-formaadis(_JavaScript Object Notation_) konfiguratsioonifailiga mida kasutatakse 
 JavaScripti ja ennekõike just Node.js projektides, et talletada kõik sõltuvused(_dependencies_). 
@@ -124,7 +125,7 @@ Selleks, et luua projekti juurkataloogi 'package.json' faili võib kasutada jär
 npm init
 ```
 
-**readme.md**
+### Readme.md
 
 'readme.md' puhul on tegemist tekstifailiga milles dokumenteeritakse antud tarkvaraprojekti.
 Käesoleval juhul ongi tegemist selle sama failiga. 
