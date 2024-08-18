@@ -8,6 +8,7 @@
 # testcafe-cucumber suitsutestid smit.ee/et/karjaar jaoks
 
 Testcafe ja Cucumberjs raamistikuga loodud kasutajaliidese testid.
+Algne kloonitud repositoorum aadressilt: https://github.com/triinum/testcafe-cucumber-reports
 
 
 ## Sisukord
