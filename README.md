@@ -54,6 +54,26 @@ https://www.typescriptlang.org/
 
 <div>
   <p>
+    <img src="https://github.com/mmeest/testcafe-cucumber-reports-master/blob/main/logos/node.png" width="100px">
+  </p>
+</div>
+
+**Node.js** - avatud lähtekoodiga JS käitussüsteem. Kui algselt oli JavaScript veebilehe/brauseri-põhine, siis
+node.js päästis selle vabaks ning tänapäeval saab JS programmeerimiskeeles luua tänu sellele väga mitmekülgseid
+rakendus.
+https://nodejs.org/en
+
+<div>
+  <p>
+    <img src="https://github.com/mmeest/testcafe-cucumber-reports-master/blob/main/logos/npm.png" width="100px">
+  </p>
+</div>
+
+**NPM** - tegemist on JavaScripti paketihalduriga. Tänapäeval on selles kasutada üle kolme miljoni paketi.
+https://www.npmjs.com/
+
+<div>
+  <p>
     <img src="https://github.com/mmeest/testcafe-cucumber-reports-master/blob/main/logos/cucumber.png" width="100px">
   </p>
 </div>
